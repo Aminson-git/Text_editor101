@@ -31,7 +31,7 @@ This project is just the beginning, and my goal is to create a text editor that 
 
 ## 🛠 **Project Setup**
 
-### 1. Setting Up a Linux Environment
+## 1. Setting Up a Linux Environment
 Since I’m a Windows user, the first challenge was setting up a Linux-like environment to write C code. Here's how I did it:
 
 - **Installing Ubuntu on Windows:** I used the Windows Subsystem for Linux (WSL) and installed Ubuntu from the Windows Store.
@@ -40,12 +40,12 @@ Since I’m a Windows user, the first challenge was setting up a Linux-like envi
 
 Once I got my Linux environment running, I was all set to start developing my text editor.
 
-### 2. Installing Dependencies
+## 2. Installing Dependencies
 I needed some essential tools to write and compile my code, so I installed **GCC** and **Make**:
 ```bash
 sudo apt-get install gcc make
 ```
-###3. Creating C Files
+## 3. Creating C Files
 I created the main source file for my text editor:
 
 ```bash
@@ -53,7 +53,7 @@ touch amin_kilo.c
 ```
 Then, I used nano to edit the file and began developing the core logic of the editor.
 
-##⚙️ **Installation and Setup**
+## ⚙️**Installation and Setup**
 Compiling the Code: The first time I tried to compile my code with gcc amin_kilo.c -o amin_kilo, I ran into a few issues. However, after updating the system with sudo apt update, I got GCC working perfectly.
 
 First Run: After a few adjustments, I compiled and ran the text editor with the following commands:
@@ -62,7 +62,7 @@ First Run: After a few adjustments, I compiled and ran the text editor with the 
 gcc amin_kilo.c -o amin_kilo
 ./amin_kilo
 ```
-##📦 **Automating with Makefile**
+## 📦**Automating with Makefile**
 To simplify the build process, I created a Makefile to automate the compilation and execution. Now, I can easily build and run the program using:
 
 ```bash
@@ -70,7 +70,7 @@ make       # To compile the code
 make run   # To compile and run the code
 ```
 
-##🖥** Key Features**
+## 🖥** Key Features**
 **Command-Line Interface (CLI)**: The text editor runs entirely within the terminal, making it lightweight and efficient for quick edits.
 
 **Text Input Handling**: It processes keyboard input, including special keys like arrow keys, allowing basic text navigation.
@@ -79,23 +79,23 @@ make run   # To compile and run the code
 
 **Terminal Mode**: Runs in non-canonical (raw) mode, allowing for fast and responsive input handling without waiting for the Enter key.
 
-##📅 **Project Milestones**
-##Phase 1: Initial Setup## **(April 26, 2025)**
+## 📅**Project Milestones**
+## Phase 1: Initial Setup **(April 26, 2025)**
 Set up the Linux environment on Windows using WSL.
 
 Installed GCC and Make for compiling C programs.
 
 Started writing the basic structure of the text editor.
 
-##Phase 2: Text Input Handling## **(May 2, 2025)**
+## Phase 2: Text Input Handling **(May 2, 2025)**
 Implemented logic for handling user input, including movement with arrow keys.
 
 Created a working text editor where users can input and navigate text.
 
-##Phase 3: Compilation and Execution Automation##
+## Phase 3: Compilation and Execution Automation
 Created a Makefile to streamline compilation and execution, making it easier to work with the project.
 
-##⚙️ **Makefile Usage**
+## ⚙️**Makefile Usage**
 The Makefile automates the build and run process. Use these simple commands to work with the project:
 
 To compile the program:
@@ -110,7 +110,7 @@ make run FILE="filename"
 ``
 This will quickly compile the text editor and run it in one go!
 
-##🔮 **Future Plans**
+## 🔮 **Future Plans**
 -**GUI Version**: Transition from CLI to a more advanced Graphical User Interface (GUI), similar to Vim but with added features.
 
 -**Advanced Features**: Implement things like syntax highlighting, autocompletion, and other power-user features.
@@ -119,7 +119,7 @@ This will quickly compile the text editor and run it in one go!
 
 -**Optimization**: Improve performance and stability for smoother operation.
 
-##🤝**Note** 
+## 🤝**Note** 
 Though I have this project in my repository credit where its due, I have followed  this tutorial as a way of learning and undertanding C and low level programming at its core. Thank you to the creater of the originial kilo editor.<3
 
 
